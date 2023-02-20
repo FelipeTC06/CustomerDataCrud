@@ -1,11 +1,18 @@
 {
-  "customer": [
-      {
-          "name": "Felipe",
-          "email": "felipe@gmail.com",
-          "birthday": "21/12/2001",
-          "phone": "21 99999-9999",
-          "id": 1
-      }
+  "customers": [
+    {
+      "name": "Felipe",
+      "email": "felipe@gmail.com",
+      "birthday": "21/12/2001",
+      "phone": "21 99999-9999",
+      "id": 1
+    },
+    {
+      "name": "Mylena",
+      "email": "mylena@gmail.com",
+      "birthday": "18/03/2001",
+      "phone": "21 00000-0000",
+      "id": 2
+    }
   ]
 }

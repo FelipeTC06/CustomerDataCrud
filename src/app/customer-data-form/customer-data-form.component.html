@@ -1,5 +1,5 @@
 <h1>Register</h1>
-<form formGroup="form">
+<form [formGroup]="form">
     <div>
         <div>
             <p>Name</p>
@@ -21,5 +21,5 @@
 </form>
 <div mat-dialog-actions>
   <button mat-button mat-dialog-close>No</button>
-  <button mat-button mat-dialog-close cdkFocusInitial>Ok</button>
+  <button mat-button mat-dialog-close cdkFocusInitial (click)="saveCustomer()">Save</button>
 </div>
